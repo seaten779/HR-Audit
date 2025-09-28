@@ -1,0 +1,23 @@
+# Notification System Dependencies for FinancePulse
+
+# OpenAI API (Primary AI service for content generation)
+openai>=1.0.0
+
+# Google Gemini API (Legacy support)
+google-generativeai>=0.3.2
+
+# Twilio for phone calls and SMS
+twilio>=9.0.0
+
+# Email libraries (already included in standard library)
+# - smtplib (built-in)
+# - email (built-in)
+
+# Additional dependencies for Twilio
+requests>=2.31.0
+pyjwt>=2.8.0
+
+# Optional: For local TTS fallback (if needed)
+# pyttsx3>=2.90  # Can be used as fallback
+
+# Note: Install these with: pip install -r requirements-notifications.txt

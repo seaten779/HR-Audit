@@ -1,0 +1,28 @@
+{
+  "scenarios": [
+    {
+      "id": "large_amount_1",
+      "title": "High-value electronics purchase",
+      "type": "large_amount",
+      "description": "Single purchase far above typical spending"
+    },
+    {
+      "id": "velocity_spike_1",
+      "title": "Rapid small purchases",
+      "type": "velocity_spike",
+      "description": "Multiple transactions in quick succession"
+    },
+    {
+      "id": "unusual_location_1",
+      "title": "Overseas charge",
+      "type": "unusual_location",
+      "description": "Charge appears far from customer home area"
+    },
+    {
+      "id": "unusual_time_1",
+      "title": "Late night purchase",
+      "type": "unusual_time",
+      "description": "Charge at atypical hour for the customer"
+    }
+  ]
+}
