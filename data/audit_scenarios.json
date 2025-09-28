@@ -1,0 +1,54 @@
+[
+  {
+    "scenario_id": "AUDIT001",
+    "title": "Performance Review Compliance",
+    "description": "Audit to ensure all employees have completed their annual performance reviews",
+    "risk_level": "medium",
+    "department": "all",
+    "checklist": [
+      "Verify all employees have performance review documents",
+      "Check review completion dates",
+      "Validate supervisor signatures",
+      "Ensure goals are documented"
+    ]
+  },
+  {
+    "scenario_id": "AUDIT002", 
+    "title": "Training Compliance Check",
+    "description": "Verify mandatory training completion across all departments",
+    "risk_level": "high",
+    "department": "all",
+    "checklist": [
+      "Check safety training completion",
+      "Verify compliance training status",
+      "Review certification expiry dates",
+      "Validate training documentation"
+    ]
+  },
+  {
+    "scenario_id": "AUDIT003",
+    "title": "Payroll Accuracy Review",
+    "description": "Audit payroll calculations and deductions for accuracy",
+    "risk_level": "high",
+    "department": "finance",
+    "checklist": [
+      "Verify hourly rate calculations",
+      "Check overtime calculations",
+      "Review tax deductions",
+      "Validate benefit deductions"
+    ]
+  },
+  {
+    "scenario_id": "AUDIT004",
+    "title": "Leave Balance Verification",
+    "description": "Review employee leave balances and usage patterns",
+    "risk_level": "low",
+    "department": "hr",
+    "checklist": [
+      "Verify accrued leave balances",
+      "Check leave usage patterns",
+      "Review leave approval process",
+      "Validate leave documentation"
+    ]
+  }
+]

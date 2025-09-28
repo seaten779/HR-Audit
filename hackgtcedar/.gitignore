@@ -1,0 +1,99 @@
+# HR Audit - Cedar Integration .gitignore
+
+# ===== CRITICAL SENSITIVE DATA =====
+# Environment files with API keys - NEVER COMMIT!
+.env
+.env.local
+.env.production
+.env.development
+config.env
+
+# API Keys and Credentials
+api_keys.json
+credentials.json
+secrets/
+keys/
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Twilio and communication credentials
+twilio_credentials.json
+twilio.env
+
+# ===== NODE.JS =====
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.pnp.ts
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# testing
+/coverage
+
+# production
+/build
+
+# ===== LOGS AND TEMP FILES =====
+# Application logs
+*.log
+logs/
+*.log.*
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# ===== DEVELOPMENT TOOLS =====
+# ngrok executable and archives
+ngrok.exe
+ngrok.zip
+ngrok
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# ===== PYTHON =====
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# ===== AUDIO/MEDIA =====
+# Voice recordings (may contain sensitive conversations)
+*.wav
+*.mp3
+*.ogg
+recordings/
+audio/
+
+# ===== DATABASE =====
+# Local database files
+*.db
+*.sqlite
+*.sqlite3
+# Only ignore Python cache and OS files
+__pycache__/
+*.pyc
+*.pyo

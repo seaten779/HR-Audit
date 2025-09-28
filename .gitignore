@@ -1,6 +1,45 @@
 # HR Audit Repository - Root Level .gitignore
 
-# Node.js and build artifacts
+# ===== CRITICAL SENSITIVE DATA =====
+# API Keys and Credentials - NEVER COMMIT THESE!
+.env
+.env.local
+.env.production
+.env.development
+.env.test
+*.env
+config.env
+secrets/
+keys/
+*.key
+*.pem
+*.p12
+*.pfx
+credentials.json
+api_keys.json
+
+# Personal and Financial Data
+customer_data.json
+transaction_data.json
+employee_data.json
+financial_records/
+personal_info/
+confidential/
+sensitive/
+
+# Twilio and Communication API Keys
+twilio_credentials.json
+twilio.env
+communication_keys/
+
+# Database files with sensitive data
+*.db
+*.sqlite
+*.sqlite3
+hr_audit.db*
+financepulse.db*
+
+# ===== NODE.JS AND BUILD ARTIFACTS =====
 node_modules/
 npm-debug.log*
 yarn-debug.log*
@@ -13,13 +52,9 @@ out/
 build/
 dist/
 
-# Environment files with secrets
-.env
-.env.local
-.env.production
-.env.development
-.env.test
-*.env
+# React build files
+build/
+dist/
 
 # IDE and editor files
 .vscode/

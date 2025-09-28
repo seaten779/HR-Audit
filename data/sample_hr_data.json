@@ -1,0 +1,52 @@
+[
+  {
+    "employee_id": "EMP001",
+    "name": "John Smith",
+    "department": "Engineering",
+    "position": "Senior Developer",
+    "hire_date": "2020-03-15",
+    "performance_score": 4.2,
+    "training_completed": 12,
+    "location": "New York"
+  },
+  {
+    "employee_id": "EMP002",
+    "name": "Sarah Johnson",
+    "department": "Marketing",
+    "position": "Marketing Manager",
+    "hire_date": "2019-07-22",
+    "performance_score": 4.5,
+    "training_completed": 15,
+    "location": "Los Angeles"
+  },
+  {
+    "employee_id": "EMP003",
+    "name": "Mike Davis",
+    "department": "Sales",
+    "position": "Sales Representative",
+    "hire_date": "2021-01-10",
+    "performance_score": 3.8,
+    "training_completed": 8,
+    "location": "Chicago"
+  },
+  {
+    "employee_id": "EMP004",
+    "name": "Emily Wilson",
+    "department": "HR",
+    "position": "HR Specialist",
+    "hire_date": "2018-09-05",
+    "performance_score": 4.7,
+    "training_completed": 20,
+    "location": "New York"
+  },
+  {
+    "employee_id": "EMP005",
+    "name": "David Brown",
+    "department": "Finance",
+    "position": "Financial Analyst",
+    "hire_date": "2020-11-30",
+    "performance_score": 4.1,
+    "training_completed": 10,
+    "location": "Boston"
+  }
+]
