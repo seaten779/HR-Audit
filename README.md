@@ -107,7 +107,6 @@ graph TB
 | **TypeScript** | 5.x | Type Safety | Advanced Type System |
 | **Tailwind CSS** | 4.x | Styling | Utility-first CSS |
 | **Framer Motion** | 12.23.22 | Animations | Physics-based animations |
-| **Lucide React** | 0.544.0 | Icons | Consistent icon system |
 
 ### **Backend Technologies** 
 
